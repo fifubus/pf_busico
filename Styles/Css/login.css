@@ -1,0 +1,231 @@
+
+
+body{
+    background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blte8950248d53d1844/630ede221ee78a063c597f58/Valorant_2022_E5A2_PlayVALORANT_PlayValorantHomepage_3440x1020_MB01_textless_LA.jpg);
+}
+
+/*-----------------------------------LOGIN DATA-----------------------------------*/
+
+#inputEmail{
+    width: 500px;
+    position: relative;
+    left: 300px;
+}
+
+#email_label{
+    position: relative;
+    left: 300px;
+}
+
+#inputPassword{
+    width: 500px;
+    position: relative;
+    left: 300px;
+}
+
+#password_label{
+    position: relative;
+    left: 300px;
+}
+
+#enter_btn{
+    text-decoration: none;
+}
+
+/*--------------------------------------MEDIA QUERY 992px-----------------------------------------*/
+
+@media (max-width: 992px) {
+    #inputEmail{
+        width: 300px;
+        position: relative;
+        left: 200px;
+    }
+    
+    #email_label{
+        position: relative;
+        left: 200px;
+    }
+    
+    #inputPassword{
+        width: 300px;
+        position: relative;
+        left: 200px;
+    }
+    
+    #password_label{
+        position: relative;
+        left: 200px;
+    }
+    
+    #enter_btn{
+        text-decoration: none;
+    }
+}
+
+/*--------------------------------------MEDIA QUERY 767px-----------------------------------------*/
+
+@media (max-width: 767px) {
+    #inputEmail{
+        width: 300px;
+        position: relative;
+        left: 100px;
+    }
+    
+    #email_label{
+        position: relative;
+        left: 100px;
+    }
+    
+    #inputPassword{
+        width: 300px;
+        position: relative;
+        left: 100px;
+    }
+    
+    #password_label{
+        position: relative;
+        left: 100px;
+    }
+    
+    #enter_btn{
+        text-decoration: none;
+    }
+}
+
+/*--------------------------------------MEDIA QUERY 575px-----------------------------------------*/
+
+@media (max-width: 575px) {
+    #inputEmail{
+        width: 300px;
+        position: relative;
+        left: 100px;
+    }
+    
+    #email_label{
+        position: relative;
+        left: 100px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    
+    #inputPassword{
+        width: 300px;
+        position: relative;
+        left: 100px;
+    }
+    
+    #password_label{
+        position: relative;
+        left: 100px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    
+    #enter_btn{
+        text-decoration: none;
+    }
+}
+
+/*--------------------------------------MEDIA QUERY 470px-----------------------------------------*/
+
+@media (max-width: 470px) {
+    #inputEmail{
+        width: 300px;
+        position: relative;
+        left: 50px;
+    }
+    
+    #email_label{
+        position: relative;
+        left: 50px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    
+    #inputPassword{
+        width: 300px;
+        position: relative;
+        left: 50px;
+    }
+    
+    #password_label{
+        position: relative;
+        left: 50px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    
+    #enter_btn{
+        text-decoration: none;
+    }
+}
+
+/*--------------------------------------MEDIA QUERY 415px-----------------------------------------*/
+
+@media (max-width: 415px) {
+    #inputEmail{
+        width: 300px;
+        position: relative;
+        left: 50px;
+    }
+    
+    #email_label{
+        position: relative;
+        left: 50px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    
+    #inputPassword{
+        width: 300px;
+        position: relative;
+        left: 50px;
+    }
+    
+    #password_label{
+        position: relative;
+        left: 50px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    
+    #enter_btn{
+        text-decoration: none;
+    }
+}
+
+/*--------------------------------------MEDIA QUERY 365px-----------------------------------------*/
+
+@media (max-width: 365px) {
+    #inputEmail{
+        width: 200px;
+        position: relative;
+        right: 20px;
+    }
+    
+    #email_label{
+        position: relative;
+        right: 20px;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    
+    #inputPassword{
+        width: 200px;
+        position: relative;
+        right: 20px;
+    }
+    
+    #password_label{
+        position: relative;
+        right: 20px;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    
+    #enter_btn{
+        text-decoration: none;
+    }
+}
+
+

@@ -1,0 +1,282 @@
+#body {
+  background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt644019cb4ccf4b47/609db957c7224a492fd9b06f/vct-primer-prime.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: 100%; }
+
+/*-------------------------------------CONTENIDO PRINCIPAL-------------------------------*/
+.vct_news {
+  text-align: left; }
+
+/*-------------------------------------ANIMACION TITULO VCT-------------------------------*/
+#vct_title {
+  animation-name: vctt;
+  animation-iteration-count: infinite;
+  animation-duration: 10s; }
+
+@keyframes vctt {
+  0% {
+    color: black; }
+  20% {
+    color: yellow; }
+  35% {
+    color: black; }
+  50% {
+    color: yellow; }
+  60% {
+    color: black; }
+  75% {
+    color: yellow; }
+  100% {
+    color: black; } }
+
+/*-------------------------------------ANIMACION TITULO WEEKLY NEWS-------------------------------*/
+#weeknews_title {
+  animation-name: wnews;
+  animation-iteration-count: infinite;
+  animation-duration: 10s; }
+
+@keyframes wnews {
+  0% {
+    color: red; }
+  20% {
+    color: white; }
+  35% {
+    color: red; }
+  50% {
+    color: white; }
+  60% {
+    color: red; }
+  75% {
+    color: white; }
+  100% {
+    color: red; } }
+
+/*-------------------------------------ANIMACION TITULO BEST PLAYS-------------------------------*/
+#bestplays_title {
+  animation-name: best_plays;
+  animation-iteration-count: infinite;
+  animation-duration: 10s; }
+
+@keyframes best_plays {
+  0% {
+    color: red; }
+  20% {
+    color: blueviolet; }
+  35% {
+    color: red; }
+  50% {
+    color: blueviolet; }
+  60% {
+    color: red; }
+  75% {
+    color: blueviolet; }
+  100% {
+    color: red; } }
+
+/*-----------------------------------------FOOTER--------------------------------------------------*/
+#footer_pos {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 500px; }
+
+/*----------------------------------------MEDIA QUERYS--------------------------------------------*/
+/*-----------------------------MEDIA QUERY 3000px------------------------------------*/
+@media (max-width: 3000px) {
+  #legend_vct {
+    width: 700px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; }
+  #fieldset_vct {
+    width: 700px;
+    height: 500px; }
+  #p_vct {
+    width: 700px; }
+  #img_vct {
+    width: 600px;
+    height: 300px;
+    position: relative;
+    left: 30px; }
+  #legend_weeknews {
+    width: 700px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; }
+  #fieldset_weeknews {
+    width: 700px;
+    height: max-content; }
+  #p_weeknews {
+    width: 700px; }
+  #img_weeknews {
+    width: 500px;
+    height: 250px;
+    position: relative;
+    left: 100px; }
+  #legend_bestplays {
+    width: 700px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; }
+  #fieldset_bestplays {
+    width: 1200px;
+    height: 600px; }
+  #iframe_vid_bestplays {
+    position: relative;
+    top: 50px;
+    width: 1000px; } }
+
+/*-----------------------------MEDIA QUERY 1500px------------------------------------*/
+@media (max-width: 1500px) {
+  #legend_vct {
+    width: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; }
+  #fieldset_vct {
+    width: 600px;
+    height: 500px; }
+  #p_vct {
+    width: 600px; }
+  #img_vct {
+    width: 500px;
+    height: 300px; }
+  #legend_weeknews {
+    width: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; }
+  #fieldset_weeknews {
+    width: 600px;
+    height: max-content; }
+  #p_weeknews {
+    width: 600px; }
+  #img_weeknews {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 45px; }
+  #legend_bestplays {
+    width: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; }
+  #fieldset_bestplays {
+    width: 600px;
+    height: 574px; }
+  #iframe_vid_bestplays {
+    position: relative;
+    top: 75px;
+    width: 450px;
+    height: 400px; } }
+
+/*-----------------------------MEDIA QUERY 1250px------------------------------------*/
+@media (max-width: 1250px) {
+  #legend_vct {
+    width: 600px; }
+  #fieldset_vct {
+    width: 600px; }
+  #p_vct {
+    width: 600px; }
+  #img_vct {
+    width: 500px;
+    height: 270px; }
+  #legend_weeknews {
+    width: 600px; }
+  #fieldset_weeknews {
+    width: 600px;
+    height: max-content; }
+  #p_weeknews {
+    width: 600px; }
+  #img_weeknews {
+    width: 500px;
+    height: 270px;
+    position: relative;
+    left: 0px; } }
+
+/*-----------------------------MEDIA QUERY 838px------------------------------------*/
+@media (max-width: 838px) {
+  #legend_vct {
+    width: 500px; }
+  #fieldset_vct {
+    width: 500px; }
+  #p_vct {
+    width: 500px; }
+  #img_vct {
+    width: 400px;
+    height: 250px; }
+  #legend_weeknews {
+    width: 500px; }
+  #fieldset_weeknews {
+    width: 500px;
+    height: max-content; }
+  #p_weeknews {
+    width: 500px; }
+  #img_weeknews {
+    width: 400px;
+    height: 250px;
+    position: relative;
+    left: 0px; }
+  #legend_bestplays {
+    width: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; }
+  #fieldset_bestplays {
+    width: 500px;
+    height: 350px; }
+  #iframe_vid_bestplays {
+    position: relative;
+    top: 20px;
+    width: 450px;
+    height: 300px; } }
+
+/*-----------------------------MEDIA QUERY 520px------------------------------------*/
+@media (max-width: 520px) {
+  #legend_vct {
+    width: 250px; }
+  #fieldset_vct {
+    width: 250px;
+    height: max-content; }
+  #p_vct {
+    width: 250px; }
+  #img_vct {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    left: 0px; }
+  #legend_weeknews {
+    width: 250px; }
+  #fieldset_weeknews {
+    width: 250px;
+    height: max-content; }
+  #p_weeknews {
+    width: 250px; }
+  #img_weeknews {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    left: 0px; }
+  #legend_bestplays {
+    width: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; }
+  #fieldset_bestplays {
+    width: 250px;
+    height: 270px; }
+  #iframe_vid_bestplays {
+    position: relative;
+    top: 20px;
+    width: 200px;
+    height: 200px; } }

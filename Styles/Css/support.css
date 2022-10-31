@@ -1,0 +1,62 @@
+
+body{
+    background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt644019cb4ccf4b47/609db957c7224a492fd9b06f/vct-primer-prime.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: 100%;
+}
+
+/*-----------------------------------SUPPORT DATA-----------------------------------*/
+
+#container_user{
+    padding-bottom: 5px;
+}
+
+#support_p{
+    padding-bottom: 5px;
+}
+
+#label_user{
+    position: relative; 
+    left: 10px; 
+}
+
+#container_text_area{
+    padding-bottom: 5px;
+}
+
+#label_text_area{
+    position: relative; 
+    left: 10px;
+}
+
+#send_btn{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#text_send_btn{
+    text-decoration: none;
+    color: white;
+}
+
+#home_btn{
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#text_home_btn{
+    text-decoration: none;
+    color: white;
+}
+
+/*----------------------------MEDIA QUERYS---------------------------------*/
+
+@media (max-width: 992px){
+textarea{
+    width: 300px
+}
+}
+
+

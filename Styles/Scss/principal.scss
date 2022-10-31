@@ -1,0 +1,41 @@
+$color-black: black;
+$color-yellow:yellow;
+$color-red: red;
+$color-white: white;
+$color-blue: blue;
+$color-blueviolet: blueviolet;
+
+
+
+#body{
+    background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt644019cb4ccf4b47/609db957c7224a492fd9b06f/vct-primer-prime.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: 100%;
+}
+
+/*-------------------------------------CONTENIDO PRINCIPAL-------------------------------*/
+
+.vct_news{
+    text-align: left;
+}
+
+/*-------------------------------------ANIMACION TITULO VCT-------------------------------*/
+
+@import "animacion_vct";
+
+/*-------------------------------------ANIMACION TITULO WEEKLY NEWS-------------------------------*/
+
+@import "animacion_weeklynews";
+
+/*-------------------------------------ANIMACION TITULO BEST PLAYS-------------------------------*/
+
+@import "animacion_bestplays";
+
+/*-----------------------------------------FOOTER--------------------------------------------------*/
+
+@import "footer";
+
+/*----------------------------------------MEDIA QUERYS--------------------------------------------*/
+
+@import "media_querys";

@@ -1,0 +1,37 @@
+
+
+#bestplays_title{
+    animation-name: best_plays;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes best_plays {
+    0%{
+        color: $color-red;
+    }
+
+    20%{
+        color: $color-blueviolet;
+    }
+
+    35%{
+        color: $color-red;
+    }
+    
+    50%{
+        color: $color-blueviolet;
+    }
+
+    60%{
+        color: $color-red;
+    }
+
+    75%{
+        color: $color-blueviolet;
+    }
+
+    100%{
+        color: $color-red;
+    }
+}

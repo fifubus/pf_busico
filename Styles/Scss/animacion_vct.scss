@@ -1,0 +1,37 @@
+
+
+#vct_title{
+    animation-name: vctt;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes vctt {
+    0%{
+        color: $color-black;
+    }
+
+    20%{
+        color: $color-yellow;
+    }
+
+    35%{
+        color: $color-black;
+    }
+    
+    50%{
+        color: $color-yellow;
+    }
+
+    60%{
+        color: $color-black;
+    }
+
+    75%{
+        color: $color-yellow;
+    }
+
+    100%{
+        color: $color-black;
+    }
+}

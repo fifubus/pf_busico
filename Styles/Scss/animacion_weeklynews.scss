@@ -1,0 +1,37 @@
+
+
+#weeknews_title{
+    animation-name: wnews;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes wnews {
+    0%{
+        color: $color-red;
+    }
+
+    20%{
+        color: $color-white;
+    }
+
+    35%{
+        color: $color-red;
+    }
+    
+    50%{
+        color: $color-white;
+    }
+
+    60%{
+        color: $color-red;
+    }
+
+    75%{
+        color: $color-white;
+    }
+
+    100%{
+        color: $color-red;
+    }
+}
